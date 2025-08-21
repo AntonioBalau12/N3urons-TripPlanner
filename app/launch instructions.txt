@@ -1,0 +1,8 @@
+open project
+open terminal
+run command
+streamlit run interfata.py
+
+could be also run from powershell/cmd
+cd "C:\Users\Antonio\Desktop\N3urons TripPlanner\app"
+streamlit run interfata.py
