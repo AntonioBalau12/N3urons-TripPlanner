@@ -4,8 +4,8 @@ from math import radians, cos, sin, sqrt, atan2, isclose
 TOLERANCE = 0.0001
 DISTANCE_THRESHOLD = 50
 
-df_otm = pd.read_csv("csv/opentrip_dataset_geo_clean.csv")
-df_google = pd.read_csv("csv/google_places_dataset_geo_clean.csv")
+df_otm = pd.read_csv("opentrip_dataset_geo_clean.csv")
+df_google = pd.read_csv("google_places_dataset_geo_clean.csv")
 
 df_otm["rate"] = pd.to_numeric(df_otm["rate"], errors="coerce")
 df_google["rating"] = pd.to_numeric(df_google["rating"], errors="coerce")
